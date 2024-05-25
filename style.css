@@ -243,7 +243,10 @@ p {
         margin-left: 1%;
         text-decoration: none;
         color: #000000
-        
+    }
+
+    .header-links:hover {
+        display: none;
     }
 
     
@@ -269,7 +272,7 @@ p {
 
     .footer {
         width: 100vw;
-        height: 25vh;
+        height: 20vh;
         display: flex;
         flex-direction: column;
         justify-items: stretch;
@@ -280,9 +283,31 @@ p {
         height: auto;
     }
 
+    .footer .social-media h3 {
+        font-size: medium;
+        padding: 5px;
+    }
+
+    .footer .social-media img{
+        width: 20px;
+    }
+
+    .footer .social-media img:hover {
+        display: none;
+    }
+
     .footer .payments-ways {
         width: 100%;
         height: auto;
+    }
+
+    .footer .payments-ways img {
+        width: 20px;
+    }
+
+    .footer .payments-ways h3 {
+        font-size: medium;
+        padding: 5px;
     }
 
     .footer p {
